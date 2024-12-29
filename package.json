@@ -1,0 +1,37 @@
+{
+  "name": "anchor-escrow",
+  "description": "Escrow program implemented in Anchor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "anchor build",
+    "deploy": "anchor deploy",
+    "test": "anchor test --skip-build --skip-deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ironaddicteddog/anchor-escrow.git"
+  },
+  "keywords": [],
+  "author": "ironaddciteddog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ironaddicteddog/anchor-escrow/issues"
+  },
+  "homepage": "https://github.com/ironaddicteddog/anchor-escrow#readme",
+  "dependencies": {
+    "@coral-xyz/anchor": "0.30.1",
+    "@solana/spl-token": "^0.4.8"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.5.4"
+  }
+}
